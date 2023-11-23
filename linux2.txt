@@ -1,0 +1,127 @@
+ilya@ilya:~$ mkdir students mentors
+
+ilya@ilya:~$ touch students/students_list.txt
+ilya@ilya:~$ touch mentors/mentors_list.txt
+
+ilya@ilya:~$ tree
+.
+├── Geekbrains
+├── mentors
+│   └── mentors_list.txt
+├── shared
+├── snap
+│   ├── firefox
+│   │   ├── 2356
+│   │   ├── 2487
+│   │   ├── common
+│   │   └── current -> 2356
+│   └── snapd-desktop-integration
+│       ├── 49
+│       ├── 57
+│       ├── common
+│       └── current -> 57
+├── students
+│   └── students_list.txt
+├── Видео
+├── Документы
+├── Загрузки
+├── Изображения
+├── Музыка
+├── Общедоступные
+├── Рабочий стол
+│   └── Создать папку
+└── Шаблоны
+
+ilya@ilya:~$ mv mentors/mentors_list.txt students/
+ilya@ilya:~$ rm mentors -r
+ilya@ilya:~$ mv students/ students_and_mentors
+ilya@ilya:~$ rm students_and_mentors -r
+ilya@ilya:~$ tree
+.
+├── Geekbrains
+├── shared
+├── snap
+│   ├── firefox
+│   │   ├── 2356
+│   │   ├── 2487
+│   │   ├── common
+│   │   └── current -> 2356
+│   └── snapd-desktop-integration
+│       ├── 49
+│       ├── 57
+│       ├── common
+│       └── current -> 57
+├── Видео
+├── Документы
+├── Загрузки
+├── Изображения
+├── Музыка
+├── Общедоступные
+├── Рабочий стол
+│   └── Создать папку
+└── Шаблоны
+
+22 directories, 0 files:~$ mkdir students mentors
+
+ilya@ilya:~$ touch students/students_list.txt
+ilya@ilya:~$ touch mentors/mentors_list.txt
+
+ilya@ilya:~$ tree
+.
+├── Geekbrains
+├── mentors
+│   └── mentors_list.txt
+├── shared
+├── snap
+│   ├── firefox
+│   │   ├── 2356
+│   │   ├── 2487
+│   │   ├── common
+│   │   └── current -> 2356
+│   └── snapd-desktop-integration
+│       ├── 49
+│       ├── 57
+│       ├── common
+│       └── current -> 57
+├── students
+│   └── students_list.txt
+├── Видео
+├── Документы
+├── Загрузки
+├── Изображения
+├── Музыка
+├── Общедоступные
+├── Рабочий стол
+│   └── Создать папку
+└── Шаблоны
+
+ilya@ilya:~$ mv mentors/mentors_list.txt students/
+ilya@ilya:~$ rm mentors -r
+ilya@ilya:~$ mv students/ students_and_mentors
+ilya@ilya:~$ rm students_and_mentors -r
+ilya@ilya:~$ tree
+.
+├── Geekbrains
+├── shared
+├── snap
+│   ├── firefox
+│   │   ├── 2356
+│   │   ├── 2487
+│   │   ├── common
+│   │   └── current -> 2356
+│   └── snapd-desktop-integration
+│       ├── 49
+│       ├── 57
+│       ├── common
+│       └── current -> 57
+├── Видео
+├── Документы
+├── Загрузки
+├── Изображения
+├── Музыка
+├── Общедоступные
+├── Рабочий стол
+│   └── Создать папку
+└── Шаблоны
+
+22 directories, 0 files
